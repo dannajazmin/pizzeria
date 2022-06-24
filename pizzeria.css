@@ -1,0 +1,119 @@
+main {
+    height: 300px;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-delicious-western-restaurant-fashion-atmosphere-black-poster-banner-picture-image_1076891.jpg );
+    
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+footer {
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-delicious-western-restaurant-fashion-atmosphere-black-poster-banner-picture-image_1076891.jpg );
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+margin-top: 20px;
+}
+
+div {
+
+    justify-content: center;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}           
+
+header {
+    background-color: #003355;
+    text-align: center;
+    margin: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid #ffffff;
+}
+
+h2 {
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
+
+label {
+    color: beige;
+    margin: 20px;
+
+}
+
+p {
+    color: rgb(219, 115, 17);
+}
+
+H4 {
+    color: beige;
+    margin: 10px;
+
+}
+
+.iconos {
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajapedido {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 30px;
+}
+
+.hacerpedido {
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    border-bottom: white solid 1px;
+
+}
+
+.pizza {
+    padding-left: 90px;
+    margin: 30px;
+
+}
+
+.cantidad {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#datosusuario {
+    padding: 10px;
+    margin: 20px;
+
+}
+
+select {
+    width: 200px;
+}
+
+input {
+    background-color: rgb(218, 210, 201);
+    border-radius: 5px;
+    border: rgb(235, 141, 0) solid;
+    margin-bottom: 30px
+}

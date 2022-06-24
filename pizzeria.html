@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pizzeria.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <img src="../asset/img/pizzalogo.png">
+        </div>
+        <nav>
+            <img class="iconos" src="../asset/img/hogar.png" alt="home">
+            <h4>
+                HOME
+            </h4>
+            <img class="iconos" src="../asset/img/viejo-telefono-tipico.png" alt="contacto">
+            <h4>
+                CONTACTO
+            </h4>
+            <img class="iconos" src="../asset/img/carrito-de-compras.png" alt="productos">
+            <h4>
+                PRODUCTOS
+            </h4>
+
+        </nav>
+    </header>
+    <main>
+        <div class="hacerpedidos">
+            <h2>
+                HACE TUS PEDIDOS
+            </h2>
+        </div>
+
+        <form action="pedido">
+            <div class="cajapedido">
+
+                <div id="datosusuario">
+                    <div>
+
+                        <input type="text" name="nombreyapellido" id="nombreyapellido"
+                            placeholder="Ingrese su nombre y apellido">
+                    </div>
+
+                    <div>
+
+                        <input type="text" name="email" id="email" placeholder="Ingrese su email">
+                    </div>
+
+                    <div>
+
+                        <input type="text" name="numerodetelefono" id="numerodetelefono"
+                            placeholder="Ingrese su numero de telefono">
+
+                    </div>
+
+                    <div>
+
+                        <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion">
+
+                    </div>
+
+                    <div>
+
+                        <input type="text" name="codigopostal" id="codigopostal" placeholder="Ingre su codigo postal">
+
+                    </div>
+
+                    <div>
+                        <label for="bebida">¿Llevar bebida? (opcional)</label>
+
+                    </div>
+                    <div>
+                        <label for="si">SI</label>
+                        <input type="radio" name="opcion" id="si">
+                        <label for="no">NO</label>
+                        <input type="radio" name="opcion" id="no">
+                    </div>
+                    <div>
+                        <label for="jugodenaranja">jugo de naranja</label>
+                        <input type="checkbox" name="jugo" id="jugodenaranja">
+
+                        <label for="7up">7up</label>
+                        <input type="checkbox" name="gaseosa" id="7up">
+
+                        <label for="cocacola">Coca Cola</label>
+                        <input type="checkbox" name="gaseosa" id="cocacola">
+
+                        <label for="pepsi">Pepsi</label>
+                        <input type="checkbox" name="gaseosa" id="pepsi">
+
+                        <label for="cervezaenlata">Cerveza en lata</label>
+                        <input type="checkbox" name="cerveza" id="cervezaenlata">
+
+                        <label for="agua">Agua</label>
+                        <input type="checkbox" name="agua" id="agua">
+                    </div>
+
+
+                    <div>
+                        <!--para preguntar si vine por el pedido o se envia a domicilio-->
+                        <label for="pedido">
+                            Retiro por local
+                        </label>
+                        <input type="radio" name="retiro" value="retiro">
+                        <label for="envio">
+                            Envio a domicilio
+                        </label>
+                        <input type="radio" name="envio" value="envio">
+                    </div>
+
+                    <div class="pizzas">
+
+                        <h4> Muzzarella</h4>
+                        <label class="cantidad" for="pizza">Cantidad de Muzzarella</label>
+                        <select name="pizzas" id="pizzas">
+                            <option value="muzza">0</option>
+                            <option value="muzza">1</option>
+                            <option value="muzza">2</option>
+                            <option value="muzza">3</option>
+                            <option value="muzza">4</option>
+                        </select>
+
+                        <h4>Napolitana</h4>
+                        <label class="cantidad" for="pizza">Cantidad de Napolitana</label>
+                        <select name="napo" id="napo">
+                            <option value="napo">0</option>
+                            <option value="napo">1</option>
+                            <option value="napo">2</option>
+                            <option value="napo">3</option>
+                            <option value="napo">4</option>
+                        </select>
+
+                        <h4>Especial</h4>
+                        <label class="cantidad" for="pizza">Cantidad de Especial</label>
+                        <select name="espe" id="espe">
+                            <option value="espe">0</option>
+                            <option value="espe">1</option>
+                            <option value="espe">2</option>
+                            <option value="espe">3</option>
+                            <option value="espe">4</option>
+                        </select>
+
+                        <h4>Fugazzeta</h4>  
+                        <label class="cantidad" for="pizza">Cantidad de Fugazzeta</label>
+                        <select name="fuga" id="fuga">
+                            <option value="fuga">0</option>
+                            <option value="fuga">1</option>
+                            <option value="fuga">2</option>
+                            <option value="fuga">3</option>
+                            <option value="fuga">4</option>
+                        </select>
+
+                        <h4>Calabrese</h4>
+                        <label class="cantidad" for="pizza">Cantidad de Calabrese</label>
+                        <select name="cala" id="cala">
+                            <option value="cala">0</option>
+                            <option value="cala">1</option>
+                            <option value="cala">2</option>
+                            <option value="cala">3</option>
+                            <option value="cala">4</option>
+                        </select>
+
+                    </div>
+
+                    
+                        <input type="button" value="Pedir" name="pedir" id="pedir">
+                    
+                </div>
+
+            </div>
+
+        </form>
+
+
+
+
+
+    </main>
+
+    <footer>
+        a
+    </footer>
+</body>
+
+</html>
